@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LHRegressionSuite" parallel="false" >
+	
+ 	<listeners>
+	<listener class-name="com.lh.helper.ExtentReporterNG"/>
+	</listeners>
+ 	
+ <test name="VerifyOnTrackAdminFeatures" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.VerifyOnTrackAdminFeatures"/>
+			</classes>
+	</test>	
+		
+<test name="FindingBalancetheme" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.OnTrack_FindingBalanceTest"/>
+			</classes>
+</test>	
+	
+	<test name="StressLessChefTheme" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.StressLessChefTest"/>
+			</classes>
+	</test>	
+	
+	<test name="ExhaleTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.ExhaleTest"/>
+			</classes>
+	</test>
+	<test name="Admin_Login" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminLogin"/>
+			</classes>
+	</test>	
+	
+	 <test name="SelectOn_Track" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminHomePageTest"/>
+			</classes>
+	</test>	
+	
+	 <test name="SearchAndDeleteTrack" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.SearchOnTrackTest"/>
+			</classes>
+	</test>
+		
+	<test name="AddStepsTrackTestConfigTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AddStepsTrackTest"/>
+			</classes>
+	</test>
+	
+	<test name="VerifyStepsPortalTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.Steps"/>
+			</classes>
+	</test> 
+	
+	<test name="Admin_Login5" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminLogin"/>
+			</classes>
+	</test>	
+	
+	 <test name="SelectOn_Track5" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminHomePageTest"/>
+			</classes>
+	</test>	
+	
+	<test name="SearchAndDeleteTrack5" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.SearchOnTrackTest"/>
+			</classes>
+	</test>	 
+	
+	
+	<test name="AddWeightManagementTrackConfigTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AddWeightManagementTrackTest"/>
+			</classes>
+	</test>
+	
+	<test name="VerifyWeightManagementPortalTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.WeightManagement"/>
+			</classes>
+	</test>
+ 	 
+		
+	
+	<test name="PhysicalActivityAdmin_Login" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminLogin"/>
+			</classes>
+	</test>	
+	
+	 <test name="SelectPhysicalActivityTrack" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminHomePageTest"/>
+			</classes>
+	</test>	
+	
+	 <test name="SearchAndDeleteTrackforPhysicalActivity" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.SearchOnTrackTest"/>
+			</classes>
+	</test>	
+	
+	
+	<test name="AddPhysicalActivityTrackConfigTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AddPhysicalActivityTrackTest"/>
+			</classes>
+	</test>
+	
+	<test name="VerifyPhysicalActivityPortalTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.PhysicalActivity"/>
+			</classes>
+	</test> 
+ 	
+	 
+   <test name="Admin_Login2" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminLogin"/>
+			</classes>
+	</test>	
+	
+	 <test name="SelectOn_Track2" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminHomePageTest"/>
+			</classes>
+	</test>	
+	
+	 <test name="SearchAndDeleteTrack2" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.SearchOnTrackTest"/>
+			</classes>
+	</test>	
+	
+	
+	<test name="AddNutritionTrackConfigTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AddNutritionTrackTest"/>
+			</classes>
+	</test>
+	
+	<test name="VerifyNutritionPortalTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.Nutrition"/>
+			</classes>
+	</test>
+	 
+	 <test name="Admin_Login1" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminLogin"/>
+			</classes>
+	</test>	
+	
+	 <test name="SelectOn_Track1" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminHomePageTest"/>
+			</classes>
+	</test>	
+	
+	 <test name="SearchAndDeleteTrack1" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.SearchOnTrackTest"/>
+			</classes>
+	</test>	
+	
+	<test name="AddGeneralTrackInstance" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AddGeneralTrackTest"/>
+			</classes>
+	</test>
+	 
+	<test name="VerifyGeneralHealth" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.GeneralHealth"/>
+			</classes>
+	</test> 	
+	
+<test name="Admin_Login4" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminLogin"/>
+			</classes>
+	</test>	
+	
+	 <test name="SelectOn_Track4" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AdminHomePageTest"/>
+			</classes>
+	</test>	
+	
+	 <test name="SearchAndDeleteTrack4" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.SearchOnTrackTest"/>
+			</classes>
+	</test>	
+	
+	
+	<test name="AddHeartHealthConfigTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.AddHeartHealthTest"/>
+			</classes>
+	</test>
+	 <test name="VerifyHeartHealthPortalTest" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.onTrackSuite.HeartHealth"/>
+			</classes>
+	</test>
+ 
+	
+ </suite>

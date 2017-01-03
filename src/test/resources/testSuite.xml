@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="LH_test_suite" parallel="false">
+
+ 	 <listeners>
+		<listener class-name="com.lh.helper.ExtentReporterNG" />
+		<listener class-name="com.lh.utils.TestNGCustom" />
+	</listeners>
+
+ 	<test name="Login_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.Login" />
+		</classes>
+	</test>
+
+	<test name="SelfRegistration_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.SelfRegistration" />
+		</classes>
+	</test>
+
+	<test name="Preferences_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.Preferences" />
+		</classes>
+	</test> 
+
+	<test name="ContactLivehealthier_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.ContactLivehealthier" />
+		</classes>
+	</test>
+
+	  <test name="WellnessBank_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.WellnessBank" />
+		</classes>
+	</test>
+
+	<test name="HealthAssessmentNoBiometrics_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.HealthAssessmentNoBiometrics" />
+		</classes>
+	</test>
+
+	<!-- <test name="BiometricEventScheduler_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.BiometricEventScheduler" />
+		</classes>
+	</test> -->
+
+	 <test name="HealthManager_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.HealthManagerTest" />
+		</classes>
+	</test> 
+
+	<test name="HealthAssessment_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.HealthAssessment" />
+		</classes>
+	</test> 
+	
+	<test name="HealthCoaching_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.HealthCoachingTest" />
+		</classes>
+	</test>
+
+	<test name="OnTarget_Dashboard_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTarget_Dashboard" />
+		</classes>
+	</test>
+
+	<test name="OnTarget_YourTarget_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTarget_YourTarget" />
+		</classes>
+	</test>
+
+	<test name="OnTarget_EatWellGamePlanEvaluation_Test"
+		preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTargetEatWellGamePlanEvaluation" />
+		</classes>
+	</test>
+
+	<test name="OnTarget_GetMovingGamePlanEvaluation" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTargetGetMovingGamePlanEvaluation" />
+		</classes>
+	</test>
+
+	 <test name="OnTarget_ManageYourWeightGamePlanEvaluation"
+		preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTargetManageYourWeightGamePlanEvaluation" />
+		</classes>
+	</test>
+
+	<test name="OnTarget_MasterStressGamePlanEvaluation"
+		preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTargetMasterStressGamePlanEvaluation" />
+		</classes>
+	</test>
+
+	<test name="OnTarget_QuitSmokingGamePlanEvaluation"
+		preserve-order="true">
+		<classes>
+			<class name="com.lh.test.OnTargetQuitSmokingGamePlanEvaluation" />
+		</classes>
+	</test>
+
+	<test name="LifestyleManager_ExerciseLog" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.LifestyleManager_ExerciseLog" />
+		</classes>
+	</test>
+
+	<test name="LifestyleManager_SleepLog" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.LifestyleManager_SleepLog" />
+		</classes>
+	</test>
+
+	<test name="LifestyleManager_Steps" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.LifestyleManager_Steps" />
+		</classes>
+	</test>
+	
+	<test name="Female - Nurtur HA" preserve-order="true">
+	<parameter name="gender" value="female"></parameter>
+		<classes>
+			<class name="com.lh.test.healthAssessment.NurturHATest" />
+		</classes>
+	</test>
+	
+	<test name="Male - Nurtur HA" preserve-order="true">
+		<parameter name="gender" value="male"></parameter>
+		<classes>
+			<class name="com.lh.test.healthAssessment.NurturHATest" />
+		</classes>
+	</test>	
+	<test name="Male - Nurtur EPC Financial" preserve-order="true">
+		<parameter name="gender" value="male"></parameter>
+		<classes>
+			<class name="com.lh.test.healthAssessment.NurturEPCFinancialTest" />
+		</classes>
+	</test>
+	<test name="Female - Nurtur EPC Financial" preserve-order="true">
+		<parameter name="gender" value="female"></parameter>
+		<classes>
+			<class name="com.lh.test.healthAssessment.NurturEPCFinancialTest" />
+		</classes>
+	</test>
+	<test name="Nutur EPC - Error Verification" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.healthAssessment.NuturEPCErrorVerificationTest" />
+		</classes>
+	</test>
+	<test name="MHP HA" preserve-order="true">
+		<classes>
+			<class name="com.lh.test.healthAssessment.MHPTest" />
+		</classes>
+	</test>
+</suite>

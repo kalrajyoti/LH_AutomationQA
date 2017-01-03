@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Production_sanity_Suite" parallel="false">
+
+	<listeners>
+		<listener class-name="com.lh.helper.ExtentReporterNG" />
+	</listeners>
+
+	
+	<test name="ProductionSanity" preserve-order="true">
+		<classes>
+			<class name="com.lh.sanitySuite.HomePageTest" />
+		</classes>
+	</test>
+</suite>
