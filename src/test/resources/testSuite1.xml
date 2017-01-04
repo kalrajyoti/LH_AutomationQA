@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name"LH_test_suite" parallel="false" >
+
+	<test name="Login_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.Login"/>
+			</classes>
+	</test>	
+	<test name="Preferences_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.Preferences"/>
+			</classes>
+	</test>	
+	<test name="SelfRegistration_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.SelfRegistration"/>
+			</classes>
+	</test>	
+	<test name="ContactLivehealthier_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.ContactLivehealthier"/>
+			</classes>
+	</test>	
+	<test name="HealthCoaching_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.HealthCoachingTest"/>
+			</classes>
+	</test>	
+	<test name="PAL_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.PALogTest"/>
+			</classes>
+	</test>	
+	<test name="HealthAssessmentNoBiometrics_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.HealthAssessmentNoBiometrics"/>
+			</classes>
+	</test>	
+	<test name="BiometricEventScheduler_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.BiometricEventScheduler"/>
+			</classes>
+	</test>	
+
+	<test name="HealthAssessment_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.HealthAssessment"/>
+			</classes>
+	</test>	
+	<test name="WellnessBank_Test" preserve-order="true">
+			<classes>			
+				<class name="com.lh.test.WellnessBank"/> 			
+			</classes>
+	</test>	
+	<test name="Login_Test" preserve-order="true">
+			<classes>
+				<class name="com.lh.test.IndexTest"/>
+			</classes>
+	</test>
+	<test name="HealthManager_Test" preserve-order="true">
+		<classes>
+			<class name="com.lh.regressionSuite.HealthManagerTest"/>
+		</classes>
+	</test>
+</suite> 
+
